@@ -1,6 +1,6 @@
 const moment=require('moment');
 const Person=require('./entities/Person');
-const constant1=require('FOO');
+const constant1=require('./constants');
 
 console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 var myPerson= new Person("bryan","rodriguez");

@@ -1,4 +1,3 @@
 const FOO = 'bar';
-module.exports = {
-  FOO
-}
+module.exports.FOO=FOO;
+  
